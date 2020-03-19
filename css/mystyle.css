@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Lobster;
+    src: url("/css/fonts/Lobster_1.3.otf");
+  }
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(30deg, rgba(247, 214, 190, 0.3), rgba(255, 165, 100, 0.5));
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background-image: url('/images/violin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;    transform: rotate(40deg);
+}
+
+#game-logo {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    background-color: rgba(145, 203, 207, 0.1);
+}
+
+h1 {
+    position: relative;
+    text-align: left;
+    margin-left: 50px;
+    font-family: "Lobster", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#cords-container {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    top: 250px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#note-container {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 30px 60px 60px 30px 60px 60px 30px 60px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    top: 80px;
+}
+
+.note {
+    position: relative;
+    background-color: lightcoral;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 30px;
+}
+
+#gcord-a {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#gcord-b {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#gcord-c {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#gcord-d {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+#dcord-e {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#dcord-fsharp {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#dcord-g {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#dcord-a {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#acord-b {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#acord-csharp {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#acord-d {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#acord-e {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#ecord-fsharp {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#ecord-gsharp {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#ecord-a {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#ecord-b {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#ecord-c {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#ecord-d {
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+
+footer {
+    position: fixed;
+    height: 5%;
+    background-color: rgb(240, 240, 240);
+    bottom: 0; left: 0; right: 0;
+    font-size: 20px;
+}
+
+small {
+    font-size: 30px;
+}
