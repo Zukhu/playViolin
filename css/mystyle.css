@@ -45,15 +45,24 @@ h1 {
     font-size: 50px;
 }
 
-#cords-container {
+#strings-container {
     position: relative;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    top: 250px;
+    grid-gap: 5px;
+    top: 35px;
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
+}
+
+#g3-button, #d4-button, #a4-button, #e5-button {
+    background-color: lightcoral;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 30px;
+    border-radius: 20px;
 }
 
 #note-container {
@@ -66,7 +75,7 @@ h1 {
     width: fit-content;
     height: fit-content;
     margin: auto;
-    top: 80px;
+    top: 35px;
 }
 
 .note {
