@@ -147,6 +147,7 @@ window.onload = function() {
   
   function gameLoop() {
       if (keyState[190]) {
+            document.getElementById("ecord-fsharp").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrEString["F#"], 1);
             playSound(arrEString["F#h1"], 0.25);
             playSound(arrEString["F#h2"], 0.25);
@@ -154,6 +155,7 @@ window.onload = function() {
             playSound(arrEString["F#h4"], 0.5);
             playSound(arrEString["F#h5"], 0.25);    
       } else if (keyState[189]) {
+            document.getElementById("e5-button").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrEString["E5"], 1);
             playSound(arrEString["E5h1"], 0.25);
             playSound(arrEString["E5h2"], 0.25);
@@ -161,6 +163,7 @@ window.onload = function() {
             playSound(arrEString["E5h4"], 0.5);
             playSound(arrEString["E5h5"], 0.25);
       } else if (keyState[188]) {
+            document.getElementById("ecord-gsharp").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrEString["G#"], 1);
             playSound(arrEString["G#h1"], 0.25);
             playSound(arrEString["G#h2"], 0.25);
@@ -168,6 +171,7 @@ window.onload = function() {
             playSound(arrEString["G#h4"], 0.5);
             playSound(arrEString["G#h5"], 0.25);
       } else if  (keyState[77]) {
+            document.getElementById("ecord-a").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrEString["A"], 1);
             playSound(arrEString["Ah1"], 0.25);
             playSound(arrEString["Ah2"], 0.25);
@@ -175,6 +179,7 @@ window.onload = function() {
             playSound(arrEString["Ah4"], 0.5);
             playSound(arrEString["Ah5"], 0.25);
       } else if  (keyState[90]) {
+            document.getElementById("a4-button").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrAString["A4"], 1);
             playSound(arrAString["A4h1"], 0.25);
             playSound(arrAString["A4h2"], 0.25);
@@ -182,6 +187,7 @@ window.onload = function() {
             playSound(arrAString["A4h4"], 0.5);
             playSound(arrAString["A4h5"], 0.25);
       } else if  (keyState[88]) {
+            document.getElementById("acord-b").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrAString["B"], 1);
             playSound(arrAString["Bh1"], 0.25);
             playSound(arrAString["Bh2"], 0.25);
@@ -189,6 +195,7 @@ window.onload = function() {
             playSound(arrAString["Bh4"], 0.5);
             playSound(arrAString["Bh5"], 0.25);
       } else if  (keyState[67]) {
+            document.getElementById("acord-csharp").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrAString["C#"], 1);
             playSound(arrAString["C#h1"], 0.25);
             playSound(arrAString["C#h2"], 0.25);
@@ -196,6 +203,7 @@ window.onload = function() {
             playSound(arrAString["C#h4"], 0.5);
             playSound(arrAString["C#h5"], 0.25);
       } else if  (keyState[86]) {
+            document.getElementById("acord-d").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrAString["D"], 1);
             playSound(arrAString["Dh1"], 0.25);
             playSound(arrAString["Dh2"], 0.25);
@@ -203,6 +211,7 @@ window.onload = function() {
             playSound(arrAString["Dh4"], 0.5);
             playSound(arrAString["Dh5"], 0.25);
       } else if  (keyState[192]) {
+            document.getElementById("d4-button").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrDString["D4"], 1);
             playSound(arrDString["D4h1"], 0.25);
             playSound(arrDString["D4h2"], 0.25);
@@ -210,6 +219,7 @@ window.onload = function() {
             playSound(arrDString["D4h4"], 0.5);
             playSound(arrDString["D4h5"], 0.25);
       } else if  (keyState[76]) {
+            document.getElementById("dcord-e").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrDString["E"], 1);
             playSound(arrDString["Eh1"], 0.25);
             playSound(arrDString["Eh2"], 0.25);
@@ -217,6 +227,7 @@ window.onload = function() {
             playSound(arrDString["Eh4"], 0.5);
             playSound(arrDString["Eh5"], 0.25);
       } else if  (keyState[75]) {
+            document.getElementById("dcord-fsharp").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrDString["F#"], 1);
             playSound(arrDString["F#h1"], 0.25);
             playSound(arrDString["F#h2"], 0.25);
@@ -224,6 +235,7 @@ window.onload = function() {
             playSound(arrDString["F#h4"], 0.5);
             playSound(arrDString["F#h5"], 0.25);
       } else if  (keyState[74]) {
+            document.getElementById("dcord-g").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrDString["G"], 1);
             playSound(arrDString["Gh1"], 0.25);
             playSound(arrDString["Gh2"], 0.25);
@@ -231,6 +243,7 @@ window.onload = function() {
             playSound(arrDString["Gh4"], 0.5);
             playSound(arrDString["Gh5"], 0.25);
       } else if  (keyState[65]) {
+            document.getElementById("g3-button").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrGString["G3"], 1);
             playSound(arrGString["G3h1"], 0.25);
             playSound(arrGString["G3h2"], 0.25);
@@ -238,6 +251,7 @@ window.onload = function() {
             playSound(arrGString["G3h4"], 0.5);
             playSound(arrGString["G3h5"], 0.25);
       } else if  (keyState[83]) {
+            document.getElementById("gcord-a").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrGString["A"], 1);
             playSound(arrGString["Ah1"], 0.25);
             playSound(arrGString["Ah2"], 0.25);
@@ -245,6 +259,7 @@ window.onload = function() {
             playSound(arrGString["Ah4"], 0.5);
             playSound(arrGString["Ah5"], 0.25);
       } else if  (keyState[68]) {
+            document.getElementById("gcord-b").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrGString["B"], 1);
             playSound(arrGString["Bh1"], 0.25);
             playSound(arrGString["Bh2"], 0.25);
@@ -252,66 +267,28 @@ window.onload = function() {
             playSound(arrGString["Bh4"], 0.5);
             playSound(arrGString["Bh5"], 0.25);
       } else if  (keyState[70]) {
+            document.getElementById("gcord-c").style.backgroundColor ="rgb(117, 35, 140)";
             playSound(arrGString["C"], 1);
             playSound(arrGString["Ch1"], 0.25);
             playSound(arrGString["Ch2"], 0.25);
             playSound(arrGString["Ch3"], 0.25);
             playSound(arrGString["Ch4"], 0.5);
             playSound(arrGString["Ch5"], 0.25);
-      }
+      } else {
+            document.querySelectorAll(".note").forEach(item => {
+                  item.style.backgroundColor = "lightcoral";
+      });
+      }     
       
   
       setTimeout(gameLoop, 10);
-  }    
-  gameLoop();
+      
+      
+      }    
+      gameLoop();
   
   
-  /*
-  document.addEventListener('keydown', (e) => {
-        e = e || window.event;
-          var key = e.which || e.keyCode;
-          if(key === 65) {
-            playSound(arrEString["F#"], 1);
-            playSound(arrEString["F#h1"], 0.25);
-            playSound(arrEString["F#h2"], 0.25);
-            playSound(arrEString["F#h3"], 0.25);
-            playSound(arrEString["F#h4"], 0.5);
-            playSound(arrEString["F#h5"], 0.25);
-          } else if (key === 83) {
-            playSound(arrEString["E5"], 1);
-            playSound(arrEString["E5h1"], 0.25);
-            playSound(arrEString["E5h2"], 0.25);
-            playSound(arrEString["E5h3"], 0.25);
-            playSound(arrEString["E5h4"], 0.5);
-            playSound(arrEString["E5h5"], 0.25);
-          } else if (key === 68) {
-            playSound(arrAString["D"], 1);
-            playSound(arrAString["Dh1"], 0.25);
-            playSound(arrAString["Dh2"], 0.25);
-            playSound(arrAString["Dh3"], 0.25);
-            playSound(arrAString["Dh4"], 0.5);
-            playSound(arrAString["Dh5"], 0.25);
-          } else if (key === 70) {
-            playSound(arrAString["C#"], 1);
-            playSound(arrAString["C#h1"], 0.25);
-            playSound(arrAString["C#h2"], 0.25);
-            playSound(arrAString["C#h3"], 0.25);
-            playSound(arrAString["C#h4"], 0.5);
-            playSound(arrAString["C#h5"], 0.25);
-          }
-            
-  });
-  
-  document.addEventListener('keyup', (e) => {
-  e = e || window.event;
-          var key = e.which || e.keyCode;
-          if(isNaN(key)) {
-            stopSound();        
-          }
-  });
-  */
-  
-  
+
   var context = new AudioContext();
   var o, g;
   
@@ -324,13 +301,7 @@ window.onload = function() {
           // Create GainNode	
           g = context.createGain(); // Create gain node
           g.gain.value = amplit; // Set gain to full volume
-  
-        /*
-          g.gain.setValueAtTime(0.5, context.currentTime);
-  
-  g.gain.exponentialRampToValueAtTime(amplit, context.currentTime + 2);
-        */
-        
+
         
           // Connect the Nodes
           o.connect(g); // Connect oscillator to gain
@@ -348,6 +319,7 @@ window.onload = function() {
   }
      
 }
+
 
 
 
